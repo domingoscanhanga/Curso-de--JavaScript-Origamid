@@ -11,11 +11,11 @@ var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
 // RETORNARÁ 3 o último verdadeiro 
 console.log(expressao);
 // Verifique se as seguintes variáveis são Truthy ou Falsy
-var nome = 'Andre';
-var idade = 28;
-var possuiDoutorado = false;
-var empregoFuturo;
-var dinheiroNaConta = 0;
+var nome = 'Andre'; // Truthy
+var idade = 28; // Truthy
+var possuiDoutorado = false; // False
+var empregoFuturo; // False
+var dinheiroNaConta = 0; // Falsep
 console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta);
 
 // Compare o total de habitantes do Brasil com China (valor em milhões)
