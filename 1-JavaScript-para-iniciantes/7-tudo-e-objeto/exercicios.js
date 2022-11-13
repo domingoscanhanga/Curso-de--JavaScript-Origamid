@@ -6,6 +6,9 @@ var nome = 'André';
 
 // nomeie 5 propriedades ou métodos de elementos do DOM
 var btn = document.querySelector('.btn');
+btn.addEventListener('click', function() {
+    alert('Olá')
+})
 // addEventListener
 // appendChild
 // id
