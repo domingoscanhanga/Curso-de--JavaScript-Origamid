@@ -1,0 +1,31 @@
+No JavaScript existem vários tipos de dados mas os mais comuns são 7.
+7 tipos de Dados
+Todos são primitivos exceto os objetos.
+var nome = 'André'; // String
+var idade = 28; // Number
+var possuiFaculdade = true; // Boolean
+var time; // Undefined
+var comida = null; // Null
+var simbolo = Symbol() // Symbol
+var novoObjeto = {} // Object
+** String e concatenação 
+Quando somamos duas strings, estamos junta-las ou seja concatenando as respectivas variáveis. 
+var nome = 'André';
+var sobrenome = 'Rafael';
+var nomeCompleto = nome + ' ' + sobrenome;
+
+A soma de um numero e um numero com a string o resultado é uma sting. 
+var gols = 1000;
+var frase = 'Romário fez ' + gols + ' gols';
+
+** Aspas Duplas, Simples e Template String
+'JavaScript é "super" fácil';
+"JavaScript é 'super' fácil";
+"JavaScript é \"super\" fácil";
+`JavaScript é "super" fácil"`;
+"JavaScript é "super" fácil"; // Inválido
+
+** Template String
+var gols = 1000;
+var frase1 = 'Romário fez ' + gols + ' gols';
+var frase2 = `Romário fez ${gols} gols`;
