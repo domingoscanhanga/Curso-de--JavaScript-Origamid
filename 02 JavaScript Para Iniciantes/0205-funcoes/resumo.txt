@@ -1,0 +1,5 @@
+** Funções
+Bloco de código que pode ser executado e reutilizado. Valores
+podem ser passados por uma função e a mesma retorna outro
+valor.
+
