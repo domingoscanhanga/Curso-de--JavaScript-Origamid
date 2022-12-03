@@ -10,4 +10,4 @@ switch(favoriteColor) {
   break
   default:
   console.log('Feche os olhos');
-}
+};

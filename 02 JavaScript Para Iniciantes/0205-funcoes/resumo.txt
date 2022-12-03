@@ -2,4 +2,13 @@
 Bloco de código que pode ser executado e reutilizado. Valores
 podem ser passados por uma função e a mesma retorna outro
 valor.
+** Parâmetro e argumento 
+Ao criamos uma função definimos parâmetro, ao invocarmos passamos argumentos.
+*** Sintaxe da criação da função:
+funtion nomeDaFuncao (parâmetro) {
+  bloco de instrução
+};
+*** Sintaxe da declaração 
+nomedaFuncao(argumento);
+** As Funções podem retornar um valor, as funções que não retornam um valor, por padrão retornam undefined, mais o codigo dentro do bloco da função é executado normalmente, a função para a sua instrução quando encontra o return. 
 
