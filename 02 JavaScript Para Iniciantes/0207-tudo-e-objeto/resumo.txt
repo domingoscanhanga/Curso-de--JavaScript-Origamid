@@ -1,0 +1,9 @@
+*Tudo é objeto em JavaScript
+Em JS tudo é objeto, String,Number,Boolean, Object e etc, possuem métodos e propriedades. 
+ ** Métodos e propriedades apresentado visto na aula:
+ length - Mostra a quantidade de carácter de uma string, a quantidade de parâmetro de uma função ou a dimensão de um vector.
+ charAt() - Permite buscar o carácter de uma string 
+ replace() - permite trocar os carácter de uma string por uma nova 
+ toString() - converte qualquer coisa em string
+ toFixed() - arredonda número.
+ 
