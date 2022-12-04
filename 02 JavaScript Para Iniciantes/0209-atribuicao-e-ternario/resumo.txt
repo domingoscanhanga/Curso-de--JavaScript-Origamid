@@ -1,0 +1,9 @@
+* Operador de atribuição 
+Podem funcionar de maneira abreviada.
+let x=5;
+let y=10;
+x +=y é o mesmo que x = 5 +10;
+x -= y é o mesmo que x = 5 - 10;
+x %= 10
+* Operador Ternário
+sintaxe (condição) ? 'instrução caso a condição seja verdadeira' :'instrução casso a condição seja falsa'

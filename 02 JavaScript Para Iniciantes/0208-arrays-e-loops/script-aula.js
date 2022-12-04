@@ -13,7 +13,7 @@ while(start<frutas1.length){
   console.log(frutas1[start]);
   start++;
 }
-frutas1.forEach((fruta,index)=>{
-  console.log(fruta,index)
+frutas1.forEach((fruta,index,array)=>{
+  console.log(fruta,index,array)
 });
 
