@@ -1,0 +1,21 @@
+*Array 
+Um grupo de valor guarda em uma única variável, essa variável é chamada de array. Sintaxe const fruta = ['manga', 'banana','morango']
+** Método e propriedade de um array 
+pop() - remove o último item e retorna ele.
+push() - adiciona elemento no final do array.
+*Loops 
+Os loops permitem executarem um bloco de código quantas vezes necessária enquanto um condição for verdadeira. 
+** for loop
+sintaxe for(inicio; condição; pois incremento) {
+  bloco de instrução.
+}
+** while loop 
+sintaxe 
+variarel de controlo / inicialização
+while(condição){
+  bloco de instrução
+  pois incremento
+}
+** forEach 
+É um método de um array oua array-like que executa uma função que interage com cada item de um array. Onde  o primeiro parâmetro representam o item do array, segundo parâmetro o index e o terceiro parâmetro o array.
+sintaxe array.forEach((item,index, array)=>)
