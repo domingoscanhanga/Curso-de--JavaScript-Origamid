@@ -1,0 +1,21 @@
+* Objetos 
+Conjunto de variáveis e funções, que são chamadas de propriedades e métodos. 
+Sintaxe const nomeDObjeto = {
+    chave: valor, propriedade
+    chave: valor, propriedade
+    .
+    .
+    .,
+    chave: function valor () método{},
+    chave (){}    
+}
+** Método e Propriedade 
+Método consiste em uma chave que possui uma função
+Propriedade consiste em uma chave que possui uma (variável) 
+** Adicionar nova propriedade 
+Podemos adicionar novas propriedades ao objetos da seguinte forma nomeDObjeto.novaPropriedade = tipoDeDado;
+** Substituir o valor da propriedade 
+Podemos Substituir o valor da propriedade da seguinte forma nomeDObjeto.Propriedade = novoValor;
+** hasOwnProperty
+Método de objeto que verifica se uma propriedade o método existe em um objeto 
+
