@@ -1,0 +1,18 @@
+*Seleção de elemento
+**Seleção de elemento por ID
+getElementById('o Id do html')
+Quando selecionamos um Id que nao existe no documento html retorna null
+** Seleção por class e tag 
+Selecionam e retorna uma lista de elemento do DOM. A lista retornada é ao vivo, significa qualquer alteração e automaticamente atualizado.
+getElementsByClassName('a classe do documento html')
+getElementsByTagName('o nome da tag html')
+**Selector geral único 
+querySelector('')
+retorna o primeiro elemento que combinar com o selector CSS
+** Selector geral lista 
+querySelectorAll("")
+retorna todos os elementos compatíveis com o selector CSS em uma lista chamada NodeList, essa lista é estática.
+
+transformando array-like em array 
+Array.from('array-like');
+Chapter 3, lesson 3 - seleção de elementos
