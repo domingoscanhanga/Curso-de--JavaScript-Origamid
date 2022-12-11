@@ -1,0 +1,26 @@
+* Dimensões e distancia
+**clientHeight propriedade que retorna altura do elemento incluído o padding.
+**offsetHeight propriedade que retorna altura do elemento incluindo padding e border 
+**scrollHeight propriedade que retorna altura completo do elemento mesmo delimitado pelo scroll.
+
+O mesmo serve para width.
+**offsetTop propriedade que retorna a distancia do topo do elemento e o topo da pagina. 
+** getBoundingClientRect() 
+método que retorna um objeto com valores de width, altura, eixos e muito mais.
+
+Window
+window.innerWidth; // width do janela
+window.outerWidth; // soma dev tools também
+window.innerHeight; // height do janela
+window.outerWidth; // soma a barra de endereço
+window.pageYOffset; // distância total do scroll horizontal --usarei para fazer aquele truque de modificar o header-nav 
+window.pageXOffset; // distância total do scroll vertical
+matchMedia();
+Utilize um media-queire como no CSS para verificar a largura do
+browser
+const small = window.matchMedia('(max-width: 600px)');
+if(small.matches) {
+console.log('Tela menor que 600px')
+} else {
+console.log('Tela maior que 600px')
+} 
