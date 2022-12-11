@@ -1,0 +1,39 @@
+  * Classes e atributos 
+  ** classList 
+  Lista todas as classes existente no elemento, podemos adicionar, remover e verificar se contem uma class.
+ 
+  *** classList.add('')
+  adiciona uma nova classe
+  elemento.classList.add('novaClasse')
+
+  *** classList.remove('')
+remove uma classe existente no elemento 
+elemento.classList.remove('classeRemover')
+*** classlist.toggle('')
+elemento.classList.toggle('classe')
+Adiciona uma classe quanto essa não existe, remove quando a mesma classe existe.
+*** classList.contains('')
+Verificar se um elemento possui uma determinada classe e retorna um valor booliano
+classList.contains('classeVerificar')
+*** classList.replace('classeMudar', 'classeNovaNoLugarDaMudar')
+
+ **attributes
+ Retorna um array-like com os atributos de um elemento
+ elemento.attributes retorna todos os atributos
+ elemento.attributes[0] retorna no primeiro atributo
+ ***geAttribute('atributoRetornar')
+ retorna um atributo 
+ elementoGet.attribute('atributoRetornar')
+ ***setAttribute('alt', 'Uma raposa')
+ Mudar o valor do atributo que está no primeiro argumento por, valor que se encontra no segundo argumento. Adiciona casso o atributo não exista. 
+ ***hasAttribute('atributoVerificar')
+ Verificar se um elemento contem um atributo e retorna um booliano.
+ ***removeAttribute('')
+ hasAttributes()
+ retorna true se possui algum atributo.
+
+  *** className - método muito antigo retorna uma string 
+ sintaxe 
+  elemento.className = "novaCalasse" - desta maneira remove todas as classes existentes no elemento. 
+  elemento.className += "novaClasse" vais concatenando 
+ 
