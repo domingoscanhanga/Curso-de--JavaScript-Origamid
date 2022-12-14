@@ -1,0 +1,16 @@
+*Eventos 
+**addEventListener 
+Adiciona uma função ao elemento, esta chamada de callback, que será ativada assim que certo evento ocorrer neste momento. 
+elemento.addEventListener('tipo de evento' callback())
+ O primeiro parâmetro do callback é recorrente ao evento que ocorreu
+
+ **Algumas propriedades de evento
+ current target - referente ao item selecionado
+ target - referente onde o evento ocorreu.
+ type - o tipo de evento
+ path 
+ ** preventDefault()
+ previne o comportamento padrão do evento no browser
+ ** this 
+ Palavra chave do java script, no contexto de evento faz referencia ao elemento associado ao addEventListener é igual ao currentTarget. 
+
