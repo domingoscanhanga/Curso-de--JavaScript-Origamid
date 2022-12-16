@@ -1,0 +1,42 @@
+* Transversing e manipulação 
+** outerHTML, innerHTML e innerText
+Propriedades que retornam uma string contendo o html ou texto. É
+possível atribuir um novo valor para as mesmas
+element.innerText = 'Novo Texto' .
+
+** Transversing
+Como navegar pelo DOM, utilizando suas propriedades e métodos.
+*** Elementos a cima do elemento mencionado 
+elementoSelecionado.parentElement; elemento acima do elemento seccionado 
+elemento.parentElement.parentElement; elemento acima que está acima do elemento selecionado
+
+*** Elementos dentro do elemento mencionado
+elemento.children // filho do elemento selecionado 
+elemento.children.children // filho do filho do elemento selecionado.
+elemento.children[0] primeiro filho do elemento selecionado. 
+** Element vs Node
+*** Element's representam um elemento html, ou seja, uma tag. 
+*** Node
+representa um nó, e pode ser um elemento (Element), texto,
+comentário, quebra de linha e mais.
+lista.previousElementSibling; // elemento acima
+lista.previousSibling; // node acima
+lista.firstChild; // primeiro node child
+lista.childNodes; // todos os node child
+
+** Manipulando Elementos
+É possível mover elementos no dom com métodos de Node.
+elemento.appendChild(elementoAserMovido); // move o elementoAserMovido para o final do elemento selecionado.
+elemento.insertBefore(elementoAserInseridoAntesAntesDoFilhoDoElementoSelecionado, filhoDoElementoSelecionado);
+elemento.removeChild(filhoDoElementoSelecionado); // remove o filho do elemento selecionado. 
+elemento.replaceChild(filhoDoElementoSelecionadoAserSubstuido, FilhoDoElementoSelecionadoQueSubstitui); 
+
+** Novos Elementos
+Podemos criar novos elementos com o método
+createElement()
+basta colocar argumento do método refente ao novo elemento html sem as tags. 
+
+** Clonar Elementos 
+elementoSerClonado.cloneNode(true); 
+o true eh referente ao argumento que o elemento a ser clonado possui. 
+
