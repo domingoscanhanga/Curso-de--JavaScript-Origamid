@@ -256,7 +256,7 @@ body {
 }
 .Js .js-scroll {
   opacity: 0;
-  transform: translate3d(-800px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
   transition: .5s all;
 
 }
