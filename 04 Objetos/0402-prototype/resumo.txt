@@ -1,0 +1,7 @@
+* Prototype 
+A propriedade prototype é um objeto adicionada a uma função quando a mesma é criada.
+**funcao.prototype 
+É possível adicionar novas propriedades e métodos  ao objeto prototype. 
+Funcao.prototype.novapropriedadeOuMetodo = function() {
+  return this.name + ' andou';
+}
